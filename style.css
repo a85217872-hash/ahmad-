@@ -1,0 +1,38 @@
+/* Header container */
+.header{
+  position: relative;
+  height: 60px;
+  border-bottom:1px solid #334155;
+}
+
+/* Logo kiri atas */
+.logo{
+  position: absolute;
+  top:15px;
+  left:20px;
+  height:30px; /* sebanding dengan tombol logout */
+}
+
+/* Title di tengah */
+.title{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); /* pastikan benar-benar di tengah */
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+/* Tombol logout kanan atas */
+.logout{
+  position:absolute;
+  top:15px;
+  right:20px;
+  padding:6px 12px;
+  background:#ef4444;
+  border:none;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
